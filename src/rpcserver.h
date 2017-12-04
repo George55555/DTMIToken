@@ -123,7 +123,7 @@ public:
 };
 
 /**
- * Zozocoin RPC command dispatcher.
+ * Dtmi RPC command dispatcher.
  */
 class CRPCTable
 {
