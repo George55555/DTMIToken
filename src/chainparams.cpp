@@ -107,12 +107,6 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 1486252800; // Feb 5th, 2017
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1517788800; // Feb 5th, 2018
 	    
-	// The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000022261dfd5999d70e"); // 501146
-
-        // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x000000000060cf57ccfff09a91344668085e53fd575826edc6a0879a5aa26dac"); // 501146
-
         /**
          * The message start string is designed to be unlikely to occur in normal data.
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
@@ -133,8 +127,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x91921f9b9d52dbbe6aef7ed6b7a2e23499d14a89702541994f9a75aecc1c85eb"));
 
 
-vSeeds.push_back(CDNSSeedData("64.20.63.133"));
-vSeeds.push_back(CDNSSeedData("135.23.228.90"));
+        vSeeds.push_back(CDNSSeedData("chickenkiller.com", "seed_chainbytes1.chickenkiller.com")); //	A	159.203.69.168
 
 
 		/*
@@ -187,7 +180,7 @@ vSeeds.push_back(CDNSSeedData("135.23.228.90"));
             (  400000, uint256S("0x0000000000075b70a14b2aee2059c221a664e663eb5b67d4a2c213894c75bfe7"))
             (  450000, uint256S("0x00000000000509c28ff644e0219386069ded2e899bb346d4c9753f483531f2b9"))
             (  500000, uint256S("0x00000000001a43a73b514535811ffdc1704744cbbe82ba023e3a7b21aaf5a6ed"))
-            (  501146, uint256S("0x000000000060cf57ccfff09a91344668085e53fd575826edc6a0879a5aa26dac"))
+            (  501146, uint256S("0x000000000060cf57ccfff09a91344668085e53fd575826edc6a0879a5aa26dac")),
 	    1593068328, // * UNIX timestamp of last checkpoint block
             564597,    // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
