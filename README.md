@@ -1,7 +1,7 @@
 Dtmi Core staging tree 0.12.1
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/dtmipay/dtmi.svg?branch=master)](https://travis-ci.org/dtmipay/dtmi) `v0.12.0.x:` [![Build Status](https://travis-ci.org/dtmipay/dtmi.svg?branch=v0.12.0.x)](https://travis-ci.org/dtmipay/dtmi/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/dtmipay/dtmi.svg?branch=v0.12.1.x)](https://travis-ci.org/dtmipay/dtmi/branches)
+`master:` [![Build Status](https://travis-ci.org/dtmipay/dtmi.svg?branch=master)](https://travis-ci.org/dtmipay/dtmi) `v0.12.1.x:` [![Build Status](https://travis-ci.org/dtmipay/dtmi.svg?branch=v0.12.1.x)](https://travis-ci.org/dtmipay/dtmi/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/dtmipay/dtmi.svg?branch=v0.12.1.x)](https://travis-ci.org/dtmipay/dtmi/branches)
 
 https://www.dtmi.org
 
